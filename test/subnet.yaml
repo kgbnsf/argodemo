@@ -7,7 +7,7 @@ metadata:
 spec:
   forProvider:
     resourceGroupNameRef:
-      name: tm-demo-12-rg
+      name: tm-demo-demo-rg
     virtualNetworkNameRef:
       name: tm-demo-ex-vnet
     addressPrefixes:
