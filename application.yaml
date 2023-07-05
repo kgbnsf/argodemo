@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: argocddemo
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/kgbnsf/argodemo.git
+    path: argodemo
+  destination:
+    server: https://newupboundpoccluster-dns-lcrwr1aj.hcp.eastus2.azmk8s.io:443
+    namespace: demo
