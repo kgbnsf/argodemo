@@ -1,7 +1,7 @@
 apiVersion: compute.azure.upbound.io/v1beta1
 kind: LinuxVirtualMachine
 metadata:
-  name: tm-demo-ex-vm
+  name: tm-demo-ex-vm-1
   labels:
     demo.tm.io/landingzone: tm-demo-ex
 spec:
